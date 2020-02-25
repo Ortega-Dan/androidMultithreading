@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         Thread th = new Thread(oc);
         th.start();
 
+        Toast.makeText(this, "Odd Counting Started !", Toast.LENGTH_SHORT).show();
+
     }
 
 
@@ -36,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         Thread th = new Thread(ec);
         th.start();
+
+        Toast.makeText(this, "Even Counting Started !", Toast.LENGTH_SHORT).show();
 
 
     }
